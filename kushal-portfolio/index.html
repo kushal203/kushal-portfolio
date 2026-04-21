@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Kushal Yellapragada — ECE Engineer & AI Developer | Portfolio</title>
+  <meta name="description" content="Kushal Yellapragada is an ECE Engineer and AI Developer specializing in real-time ML systems, EEG signal processing, React Native, and rapid prototyping. Based in India (JNTUH)." />
+  <meta name="keywords" content="Kushal Yellapragada, Kushal portfolio, ECE engineer, AI developer, React Native, EEG signal processing, machine learning, JNTUH, INCOIS, QuitApps" />
+  <meta name="author" content="Kushal Yellapragada" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://kushalsportfolio.vercel.app/" />
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kushalsportfolio.vercel.app/" />
+  <meta property="og:title" content="Kushal Yellapragada — ECE Engineer & AI Developer" />
+  <meta property="og:description" content="Portfolio of Kushal Yellapragada — building real-time AI systems, EEG platforms, React Native apps, and rapid prototypes." />
+  <meta property="og:image" content="https://kushalsportfolio.vercel.app/og-image.png" />
+  <meta property="og:site_name" content="Kushal Yellapragada Portfolio" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kushal Yellapragada — ECE Engineer & AI Developer" />
+  <meta name="twitter:description" content="Portfolio of Kushal Yellapragada — building real-time AI systems, EEG platforms, React Native apps, and rapid prototypes." />
+  <meta name="twitter:image" content="https://kushalsportfolio.vercel.app/og-image.png" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kushal Yellapragada",
+    "alternateName": "Yellapragada Kushal",
+    "url": "https://kushalsportfolio.vercel.app/",
+    "email": "yellapragadakushal07@gmail.com",
+    "telephone": "+919652517093",
+    "jobTitle": "ECE Engineer & AI Developer",
+    "description": "B.Tech ECE student at JNTUH specializing in AI-driven signal processing, mobile development, and rapid prototyping.",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Jawaharlal Nehru Technological University Hyderabad (JNTUH)"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "QuitApps (Scale Rhino Pvt. Ltd.)"
+    },
+    "knowsAbout": ["EEG Signal Processing", "React Native", "Python", "Machine Learning", "Computer Vision", "Wear OS", "Embedded Systems"],
+    "sameAs": [
+      "https://kushal-portfolio-p8pj7l5u9.vercel.app"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ==================== NAV ==================== -->
+  <header id="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav-logo">KY<span>.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="mailto:yellapragadakushal07@gmail.com" class="btn btn-nav">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ==================== HERO ==================== -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-badge reveal">
+          <span class="badge-dot"></span>
+          Open to Opportunities
+        </div>
+        <h1 class="hero-title reveal">
+          Hi, I'm <span class="gradient-text">Kushal</span><br/>
+          Yellapragada
+        </h1>
+        <p class="hero-subtitle reveal" id="typed-text"></p>
+        <p class="hero-desc reveal">
+          I build real-time AI systems, EEG-based diagnostic platforms, and mobile applications — combining electronics engineering with cutting-edge machine learning.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-num">6+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Internships</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">SIH</span>
+            <span class="stat-label">Qualified R1</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-dot"></div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Who I Am</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a <strong>B.Tech student in Electronics & Communication Engineering</strong> at JNTUH, passionate about bridging the gap between hardware and intelligent software. My work spans AI-driven signal processing, mobile development, and rapid prototyping using modern AI tools.
+            </p>
+            <p>
+              I thrive at the intersection of embedded systems and machine learning — whether it's processing EEG signals to detect stress, building React Native apps, or training deep learning models for medical diagnostics.
+            </p>
+            <div class="interests-chips">
+              <span class="chip">Rapid AI Prototyping</span>
+              <span class="chip">Wearable Integration</span>
+              <span class="chip">EEG Diagnostics</span>
+              <span class="chip">Real-time ML Systems</span>
+              <span class="chip">AI-based OS Dev</span>
+            </div>
+          </div>
+          <div class="affiliations reveal">
+            <h3 class="affiliations-title">Affiliations & Highlights</h3>
+            <div class="affiliation-card">
+              <div class="aff-icon">🌊</div>
+              <div>
+                <strong>INCOIS — Technical Research</strong>
+                <p>Worked on tide gauge documentation & real-time ocean data workflows. Currently authoring a technical research paper.</p>
+              </div>
+            </div>
+            <div class="affiliation-card">
+              <div class="aff-icon">🚀</div>
+              <div>
+                <strong>Hustle Harmony — Product Engineer</strong>
+                <p>Building and fine-tuning an AI mentor product at Scale Rhino Pvt. Ltd.</p>
+              </div>
+            </div>
+            <div class="affiliation-card">
+              <div class="aff-icon">🏆</div>
+              <div>
+                <strong>Smart India Hackathon — SIH</strong>
+                <p>Qualified Round 1. Designed circuit for a microplastics detection system.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">What I Know</span>
+          <h2 class="section-title">Skills & Tech Stack</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon">📱</div>
+            <h3>App Development</h3>
+            <div class="skill-tags">
+              <span>React</span><span>Next.js</span><span>TypeScript</span>
+              <span>JavaScript</span><span>React Native</span><span>Native Module Debugging</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">🤖</div>
+            <h3>AI & Data</h3>
+            <div class="skill-tags">
+              <span>Python</span><span>MATLAB</span><span>EEG Processing</span>
+              <span>Computer Vision</span><span>Model Fine-tuning</span><span>PyTorch</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">🛠️</div>
+            <h3>Tools & DB</h3>
+            <div class="skill-tags">
+              <span>MongoDB</span><span>Git</span><span>ADB</span>
+              <span>VS Code</span><span>Replit</span><span>FlutterFlow</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon">⚙️</div>
+            <h3>Hardware & Sensors</h3>
+            <div class="skill-tags">
+              <span>Verilog HDL</span><span>AMD Vivado</span><span>MATLAB</span>
+              <span>Wear OS Sensors</span><span>Tide Gauge Systems</span>
+              <span>Embedded C</span><span>Microplastics Detection</span><span>Circuit Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">What I've Built</span>
+          <h2 class="section-title">Major Projects</h2>
+        </div>
+        <div class="projects-grid">
+
+          <article class="project-card reveal featured">
+            <div class="project-badge">🔬 Ongoing</div>
+            <div class="project-icon">🧠</div>
+            <h3>AI-Driven Cancer Classification System</h3>
+            <p>End-to-end deep learning pipeline for lung and colon histopathological image classification. Currently training a multi-stage PyTorch CNN on the LC25000 dataset with a Streamlit diagnostic interface.</p>
+            <div class="project-tags">
+              <span>PyTorch</span><span>CNN</span><span>Streamlit</span><span>Computer Vision</span>
+            </div>
+            <a href="mailto:yellapragadakushal07@gmail.com?subject=Interested%20in%20your%20Cancer%20Classification%20Project" class="project-link">Enquire About This →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">⚡</div>
+            <h3>Neural Signal Analyzer — EEG Stress Detection</h3>
+            <p>Real-time EEG signal processing tool built on Replit. Processes electrical brain signals to detect stress patterns using Python filtering and thresholding with visual output charts.</p>
+            <div class="project-tags">
+              <span>Python</span><span>EEG</span><span>Signal Processing</span><span>Replit</span>
+            </div>
+            <a href="mailto:yellapragadakushal07@gmail.com?subject=Interested%20in%20Neural%20Signal%20Analyzer%20Project" class="project-link">Enquire About This →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">🔬</div>
+            <h3>Brain Tumor Detection — MATLAB</h3>
+            <p>MRI preprocessing, segmentation & classification pipeline. Applies thresholding, morphological filtering, and ML classification with automated report generation and tumor boundary marking.</p>
+            <div class="project-tags">
+              <span>MATLAB</span><span>Image Processing</span><span>ML Classification</span>
+            </div>
+            <div class="project-badge ongoing-badge">Ongoing</div>
+            <a href="mailto:yellapragadakushal07@gmail.com?subject=Interested%20in%20Brain%20Tumor%20Detection%20Project" class="project-link">Enquire About This →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">💚</div>
+            <h3>Happy Mood Tracker App</h3>
+            <p>Mood-based adaptive UI with integrated mental-health quiz flow in TypeScript. Designing a Wear OS heart-rate monitoring & AI diagnosis pipeline.</p>
+            <div class="project-tags">
+              <span>React Native</span><span>TypeScript</span><span>Wear OS</span>
+            </div>
+            <a href="mailto:yellapragadakushal07@gmail.com?subject=Interested%20in%20Happy%20Mood%20Tracker%20App" class="project-link">Enquire About This →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">🌿</div>
+            <h3>AI Plant Disease Diagnosis App</h3>
+            <p>Full mobile app + APK delivery. Complete ML workflow documentation, technical architecture design, and crop disease detection via image classification.</p>
+            <div class="project-tags">
+              <span>React Native</span><span>ML</span><span>Computer Vision</span>
+            </div>
+            <a href="https://drive.google.com/file/d/1VbmOlW5gnte9dwACmMNwG1NcfTST1uzH/view?usp=sharing" target="_blank" rel="noopener" class="project-link">View APK →</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-icon">🔭</div>
+            <h3>AI-Based Operating System</h3>
+            <p>Experimental OS concept with AI-driven automation — intelligent task routing, adaptive interfaces, and context-aware system management.</p>
+            <div class="project-tags">
+              <span>AI Automation</span><span>Systems Design</span><span>Experimental</span>
+            </div>
+            <div class="project-badge ongoing-badge">Ongoing</div>
+            <a href="mailto:yellapragadakushal07@gmail.com?subject=Interested%20in%20AI%20OS%20Project" class="project-link">Enquire About This →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE ==================== -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Where I've Worked</span>
+          <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="timeline">
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>App Developer Intern</h3>
+                  <span class="timeline-company">QuitApps · Scale Rhino Pvt. Ltd.</span>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-date">2026 (Completed)</span>
+                  <span class="timeline-type remote">Remote</span>
+                </div>
+              </div>
+              <p>Selected after a competitive interview process (founding team hire by Harsha Vardhan G, Founder - QuitApps). Developed app features, refined UI/UX, and contributed to product engineering initiatives. Received ₹5,000/month stipend over 2-month engagement.</p>
+              <div class="timeline-tags">
+                <span>App Development</span><span>React Native</span><span>Product Engineering</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>Product Engineer (AI Systems)</h3>
+                  <span class="timeline-company">Hustle Harmony · Scale Rhino Pvt. Ltd.</span>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-date">May – June 2025 (Completed)</span>
+                  <span class="timeline-type hybrid">Part-Time</span>
+                </div>
+              </div>
+              <p>Contributed to AI system refinement for the Personal Mentor feature. Prototyped wearables and sensors, and handled early-stage product engineering tasks (~12–13 hrs/week).</p>
+              <div class="timeline-tags">
+                <span>AI Fine-tuning</span><span>Wearables</span><span>Prototyping</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>Technical Research Collaborator</h3>
+                  <span class="timeline-company">INCOIS (Indian National Centre for Ocean Information Services)</span>
+                </div>
+                <div class="timeline-meta">
+                  <span class="timeline-date">Ongoing</span>
+                  <span class="timeline-type research">Research</span>
+                </div>
+              </div>
+              <p>Worked on tide gauge documentation and real-time ocean data workflows. Currently co-authoring a technical research paper on oceanographic data processing systems.</p>
+              <div class="timeline-tags">
+                <span>Oceanography</span><span>Technical Writing</span><span>Real-time Data</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION ==================== -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">My Background</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-info">
+            <h3>B.Tech — Electronics & Communication Engineering</h3>
+            <span class="edu-uni">Jawaharlal Nehru Technological University Hyderabad (JNTUH)</span>
+            <p>Focused on AI-driven signal processing, mobile development, embedded systems, and rapid prototyping. Applied curriculum knowledge in real-world research with INCOIS and startup environments.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Let's Talk</span>
+          <h2 class="section-title">Get In Touch</h2>
+        </div>
+        <p class="contact-desc reveal">I'm always open to exciting projects, research collaborations, or new opportunities. Feel free to reach out!</p>
+        <div class="contact-grid reveal">
+          <a href="mailto:yellapragadakushal07@gmail.com" class="contact-card">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">yellapragadakushal07@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919652517093" class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div>
+              <span class="contact-label">Phone</span>
+              <span class="contact-value">+91 96525 17093</span>
+            </div>
+          </a>
+        </div>
+        <div class="contact-cta reveal">
+          <a href="mailto:yellapragadakushal07@gmail.com" class="btn btn-primary btn-lg">Send Me an Email</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 <strong>Kushal Yellapragada</strong>. Designed & built with ❤️</p>
+      <p class="footer-links">
+        <a href="#hero">Back to top ↑</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
